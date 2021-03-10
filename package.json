@@ -1,0 +1,20 @@
+{
+  "name": "forex-signals-alerts",
+  "version": "0.1.0",
+  "description": "Forex live alerts",
+  "main": "src/app.js",
+  "scripts": {
+    "build": "browserify src/js/app.js -o src/js/bundle.js",
+    "watch": "watchify src/js/app.js -o src/js/bundle.js"
+  },
+  "author": "Oscar Montes Camberos",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "browserify": "^17.0.0",
+    "cheerio": "^1.0.0-rc.5",
+    "moment": "^2.29.1",
+    "watchify": "^4.0.0"
+  },
+  "devDependencies": {}
+}
